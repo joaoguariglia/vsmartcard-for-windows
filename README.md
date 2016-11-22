@@ -8,11 +8,11 @@ This project is a windows client that makes a connection to a linux server runni
 
 # Step A
 Windows (VPCD) ---- Request via LAN (ssh) ---> Linux (vpicc)
-                                   Information:
-                                   Windows ip
-                                   Linux ssh user
-                                   Linux ssh password
-                                   Command for linux vpicc ready (vicc -vvvvv --type relay --hostname (WINDOWS IP)
+                                   Information:
+                                   Windows ip
+                                   Linux ssh user
+                                   Linux ssh password
+                                   Command for linux vpicc ready (vicc -vvvvv --type relay --hostname (WINDOWS IP)
 # Step B
 Smartcard -> Linux (vpicc) ---> request accepted --- >> Windows (VPCD)
 # Step C
