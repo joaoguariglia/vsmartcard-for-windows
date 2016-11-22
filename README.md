@@ -22,3 +22,6 @@ Smartcard -> Linux (vpicc) ---> request accepted --- >> Windows (VPCD)
 Windows (VPCD) ---> start driver (BixVirtualReader) ---> and emulates the connected smartcard in Linux
 
 Note: The project is in Portuguese Brazil since I am Brazilian and it is still in version 1.0
+
+Watch the sample video:
+https://www.youtube.com/watch?v=D3eTqS0w6oc
