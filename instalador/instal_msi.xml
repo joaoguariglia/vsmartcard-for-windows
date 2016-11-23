@@ -1,0 +1,39 @@
+<MsiWrapper>
+  <Installer>
+    <IconFile Detect="" Value="C:\Users\suporte\Desktop\instalacao\drivers\icon.ico" />
+    <Output FileName="C:\Users\suporte\Desktop\setup_compilado\setup.msi" />
+    <InstallPrivileges Value="Elevated" />
+    <PerUser Value="no" />
+    <ElevateExecutable Value="administrators" />
+    <UpgradeCode Value="{A293A3A8-CCD7-438E-970F-88EA2FD52FE5}" />
+    <ProductId Value="" />
+    <Manufacturer Detect="" Value="Project VsmartCard - Frank Morgner" />
+    <ProductVersion Detect="" Value="1.0.0.0" />
+    <ProductName Detect="" Value="Windows-vpcd" />
+    <Comments Detect="" Value="Frank Morgner - https://github.com/frankmorgner/vsmartcard" />
+    <Contact Detect="" Value="" />
+    <HelpLink Detect="" Value="https://github.com/joaoguariglia/vsmartcard-for-windows" />
+    <UpdateLink Detect="" Value="" />
+    <AboutLink Detect="" Value="By João Felipe Guariglia" />
+  </Installer>
+  <WrappedInstaller>
+    <Executable FileName="C:\Users\suporte\Desktop\setup_compilado\setup.exe" SuccessCodes="" Impersonate="no" />
+    <ApplicationId Value="" />
+    <Install>
+      <Arguments Value="">
+        <UILevelNone Value="" />
+        <UILevelBasic Value="" />
+        <UILevelReduced Value="" />
+        <UILevelFull Value="" />
+      </Arguments>
+    </Install>
+    <Uninstall>
+      <Arguments Value="">
+        <UILevelNone Value="" />
+        <UILevelBasic Value="" />
+        <UILevelReduced Value="" />
+        <UILevelFull Value="" />
+      </Arguments>
+    </Uninstall>
+  </WrappedInstaller>
+</MsiWrapper>
