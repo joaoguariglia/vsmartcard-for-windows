@@ -1,5 +1,7 @@
 # vsmartcard-for-windows
 Version 1.0
+# New
+Now it connects through the wan, linux only needs that port 22 is open in the firewall, whereas in windows it does not have to do anything.
 
 This project is an extension of Frank's work.
 https://github.com/frankmorgner/vsmartcard
