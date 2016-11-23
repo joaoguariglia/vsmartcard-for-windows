@@ -1,12 +1,15 @@
 # vsmartcard-for-windows
 Version 1.0
-# New
-Now it connects through the wan, linux only needs that port 22 is open in the firewall, whereas in windows it does not have to do anything.
 
 This project is an extension of Frank's work.
 https://github.com/frankmorgner/vsmartcard
 
 This project is a windows client that makes a connection to a linux server running vpicc, and through this linux server running vpicc makes a reverse call to windows vpcd. Here is a very simple flow chart below for understanding
+
+# New
+Now it connects through the wan, linux only needs that port 22 is open in the firewall, whereas in windows it does not have to do anything.
+
+
 
 # Step A
 Windows (VPCD) ---- Request via LAN (ssh) ---> Linux (vpicc)
