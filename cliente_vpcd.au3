@@ -69,7 +69,7 @@ While 1 ;<<<<<<< Entrando no While
 						   ; Mas a primeira vez que vc clica em conectar ele vai cair na função $msg_conectando = que vai mudar o valor para 1
 						   ; Ai segue a descrição dessa função logo abaixo
 
-		 If Ping($credencial_ip, 3000) Then
+		 If Ping($credencial_ip, 10000) Then
 																	 ; Acionado apenas se o botao [conectar] for clicado
 																	 if $msg_conectando = 1 then																								; o $msg_conectando só fica 1 quando o botao [conectar] é acionado ai cai neste [if $msg_conectando] ...
 																		To_Tray()																												; Ao conectar o GUI ja fica no Tray Menu
